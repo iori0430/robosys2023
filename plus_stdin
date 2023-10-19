@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Yamazaki Iori s22C1132PS@s.chibakoudai.jp
+
+
 import sys
 
 ans = 0
