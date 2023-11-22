@@ -8,3 +8,9 @@ ng () {
 }
 
 res = 0
+
+out = $(./plus 7 4 5 2)
+[ "${out}" = 17 ] || ng ${LINENO}
+
+[ "$res" = 0 ] && echo OK
+exit $res
