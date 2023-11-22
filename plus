@@ -4,11 +4,30 @@
 
 import sys
 
-ans = 0
-for line in sys.stdin:
-    try:
-        ans += int(line)
-    except:
-        ans += float(line)
+ans1 = 0
+count = 0
+count1 = 0
+count2 = 0
 
-print(ans)
+for line in sys.argv[1: ]:
+    try:
+        ans1 += int(line)
+        if int(line) == 0:
+            count += 1
+        elif int(line) % 2 == 0:
+            count1 += 1
+        else:
+            count2 += 1
+
+    except:
+        ans1 += float(line)
+        if float(line) == 0:
+            count += 1
+        elif float(line) % 2 == 0:
+            count1 += 1
+        else:
+            count2 += 1
+
+print("合計値は", ans1)
+print("数列の奇数の数は", count2)
+print("数列の偶数の数は", count1)
