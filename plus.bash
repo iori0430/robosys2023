@@ -4,13 +4,13 @@
 
 ng () {
 	echo NG at Line $1
-	res = 1
+	res=1
 }
 
-res = 0
+res=0
 
-out = $(./plus 7 4 5 2)
-[ "${out}" = 17 ] || ng ${LINENO}
+out=$(./plus 7 4 5 2)
+[ "${out}" = 18 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $res
