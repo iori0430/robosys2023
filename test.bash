@@ -9,8 +9,8 @@ ng () {
 
 res=0
 
-out=$(./plus 7 4 5 2)
-[ "${out}" = 17 ] || ng ${LINENO}
+out=$(seq 5 | ./plus)
+[ "${out}" = 15 ] || ng ${LINENO}
 
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
