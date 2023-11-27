@@ -1,4 +1,6 @@
 # robosys2023
+
+![test](https://github.com/iori0430/robosys2023/actions/workflows/test.yml/badge.svg)
 python
 
 *このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
