@@ -5,12 +5,12 @@
 標準入力から読み込んだ数字を足す。
 
 ## ダウンロード
-git clone <https://github.com/iori0430/robosys2023.git>
+* $ git clone <https://github.com/iori0430/robosys2023.git>
 
 ## 使い方 
-* chmod +x plus
+* $ chmod +x plus
 
-* seq5 | ./plus
+* $ seq5 | ./plus
 
 ## 必要なソフトウェア
 * Python
