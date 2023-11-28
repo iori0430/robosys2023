@@ -3,6 +3,7 @@
 ![test](https://github.com/iori0430/robosys2023/actions/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数字を足す。
+入植された数値の奇数と偶数の回数を数える。
 
 ## 必要なソフトウェア
 * Python
