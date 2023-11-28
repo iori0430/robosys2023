@@ -9,6 +9,7 @@ git clone <git@github.com:iori0430/robosys2023.git>
 
 ## 使い方 
 chmod +x ./plus
+
 seq5 | ./plus
 
 ## 必要なソフトウェア
@@ -26,5 +27,5 @@ seq5 | ./plus
 *このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て、自信の著作としたものです。
 
    *　[ryuichiueda/my_slides robosys_2022]　(https://github.com/ryuichiueda/my_slide/tree/master/robosys_2022)
-o
+
 *　© 2023 Iori Yamazaki
