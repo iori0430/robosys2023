@@ -5,21 +5,13 @@
 import sys
 
 ans1 = 0
-count1 = 0
-count2 = 0
 
 for line in sys.stdin:
 
     try:
         ans1 += int(line)
-        if int(line) % 2 == 0:
-            count1 += 1
-        else :
-            count2 += 1
 
     except:
         ans1 += float(line)
 
 print(ans1)
-print(count1)
-print(count2)
