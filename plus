@@ -14,4 +14,4 @@ for line in sys.stdin:
     except:
         ans += float(line)
 
-print("合計値は", ans)
+print(ans)
