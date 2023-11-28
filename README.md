@@ -8,7 +8,7 @@
 git clone <git@github.com:iori0430/robosys2023.git>
 
 ## 使い方 
-chmod +x ./plus
+chmod +x plus
 
 seq5 | ./plus
 
