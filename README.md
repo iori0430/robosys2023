@@ -5,12 +5,12 @@
 標準入力から読み込んだ数字を足す。
 
 ## ダウンロード
-* $ git clone <https://github.com/iori0430/robosys2023.git>
+$ git clone <https://github.com/iori0430/robosys2023.git>
 
 ## 使い方      
-* $ chmod +x plus
+$ chmod +x plus
 
-* $ seq5 | ./plus
+$ seq5 | ./plus
 
 ## 必要なソフトウェア
 * Python
@@ -26,6 +26,6 @@
 
 * このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て、自信の著作としたものです。
 
-   * [ryuichiueda/my_slides robosys_2022]　(https://github.com/ryuichiueda/my_slide/tree/master/robosys_2022)
+   * [ryuichiueda/my_slides/robosys_2022]　(https://github.com/ryuichiueda/my_slide/tree/master/robosys_2022)
 
 * 　© 2023 Iori Yamazaki
